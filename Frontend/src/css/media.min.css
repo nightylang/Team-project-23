@@ -1,0 +1,37 @@
+@media only screen and (max-width: 599px) {
+    header h2 {
+        font-size: 17px;
+        color: red;
+    }
+    #laptop {
+        display: none;
+    }
+    #mobile {
+        display: block;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 669px) {
+    header h2 {
+        font-size: 20px;
+        color: red;
+    }
+    #laptop {
+        display: none;
+    }
+    #mobile {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 670px) {
+    #laptop {
+        display: block;
+    }
+    #mobile {
+        display: none;
+    }
+    header h2 {
+        color: red;
+    }
+}
